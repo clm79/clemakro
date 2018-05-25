@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: ATC Vector
+Bundle-SymbolicName: de.clemakro.client.rcp.atcvector;singleton:=true
+Bundle-Version: 1.0.0.dev
+Bundle-Vendor: Clemakro
+Require-Bundle: org.eclipse.e4.core.services,
+  org.eclipse.e4.core.di.annotations,
+  org.eclipse.e4.ui.workbench,
+  org.eclipse.e4.core.di.extensions,
+  org.eclipse.osgi.services,
+  de.clemakro.client.rcp.core,
+  org.eclipse.e4.ui.model.workbench,
+  org.eclipse.swt
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Import-Package: javax.annotation;version="1.0.0";resolution:=optional,
+  javax.inject;version="1.0.0"
+Automatic-Module-Name: de.clemakro.client.rcp.atcvector

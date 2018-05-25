@@ -1,0 +1,21 @@
+http://www.vogella.com/tutorials/EclipseRCP/article.html#menu-and-toolbar-application-objects
+
+Table 8. Default IDs for commonly used commands
+Command			ID
+Save			org.eclipse.ui.file.save
+Save All		org.eclipse.ui.file.saveAll
+Undo			org.eclipse.ui.edit.undo
+Redo			org.eclipse.ui.edit.redo
+Cut				org.eclipse.ui.edit.cut
+Copy			org.eclipse.ui.edit.copy
+Paste			org.eclipse.ui.edit.paste
+Delete			org.eclipse.ui.edit.delete
+Import			org.eclipse.ui.file.import
+Export			org.eclipse.ui.file.export
+Select All		org.eclipse.ui.edit.selectAll
+About			org.eclipse.ui.help.aboutAction
+Preferences		org.eclipse.ui.window.preferences
+Exit			org.eclipse.ui.file.exit
+
+Assign the org.eclipse.ui.main.menu ID to your main menu.
+Also set the org.eclipse.ui.file.menu ID for the File menu.

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/descriptor/basic" xmlns:basic_1="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_JiFNIGAQEeiA_8GOxmpyBA">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_KLxqYGAQEeiA_8GOxmpyBA" featurename="addons" parentElementId="org.eclipse.e4.application"/>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_Vnxk4GAWEeiA_8GOxmpyBA" featurename="menuContributions" parentElementId="org.eclipse.e4.application">
+    <elements xsi:type="menu:MenuContribution" xmi:id="_ZRKGYGAWEeiA_8GOxmpyBA" elementId="de.clemakro.client.rcp.atcvector.menucontribution.0" positionInParent="before=org.eclipse.ui.help.menu" parentId="org.eclipse.ui.main.menu">
+      <children xsi:type="menu:Menu" xmi:id="_gi4AgGAWEeiA_8GOxmpyBA" elementId="de.clemakro.client.rcp.atcvector.menu.xy" label="ATC">
+        <children xsi:type="menu:DirectMenuItem" xmi:id="_kRzecGAYEeiA_8GOxmpyBA" elementId="de.clemakro.client.rcp.atcvector.directmenuitem.atcxyz" label="ATC XYZ"/>
+      </children>
+    </elements>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_1X8gAGAYEeiA_8GOxmpyBA" featurename="descriptors" parentElementId="org.eclipse.e4.application">
+    <elements xsi:type="basic:PartDescriptor" xmi:id="_e6K18GAZEeiA_8GOxmpyBA" elementId="de.clemakro.client.rcp.atcvector.partdescriptor.atcpart" label="ATC Part"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_q71RAGAZEeiA_8GOxmpyBA" featurename="children" parentElementId="org.eclipse.e4.application">
+    <elements xsi:type="basic_1:TrimmedWindow" xmi:id="_1iMywGAZEeiA_8GOxmpyBA" elementId="org.eclipse.e4.window.main" label="ATC Vector" width="800" height="600">
+      <children xsi:type="basic_1:PartSashContainer" xmi:id="_HQDUkGAaEeiA_8GOxmpyBA" elementId="de.clemakro.client.rcp.atcvector.partsashcontainer.0" horizontal="true">
+        <children xsi:type="basic_1:PartStack" xmi:id="_MRFlgGAaEeiA_8GOxmpyBA" elementId="de.clemakro.client.rcp.atcvector.partstack.left" containerData="1500"/>
+        <children xsi:type="basic_1:PartStack" xmi:id="_MsK_AGAaEeiA_8GOxmpyBA" elementId="de.clemakro.client.rcp.atcvector.partstack.center" containerData="7000"/>
+        <children xsi:type="basic_1:PartStack" xmi:id="_0PrlgGAaEeiA_8GOxmpyBA" elementId="de.clemakro.client.rcp.atcvector.partstack.right" containerData="1500"/>
+      </children>
+      <mainMenu xmi:id="_1iMywWAZEeiA_8GOxmpyBA" elementId="org.eclipse.ui.main.menu"/>
+    </elements>
+  </fragments>
+</fragment:ModelFragments>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         id="product"
+         point="org.eclipse.core.runtime.products">
+      <product
+            name="de.clemakro.client.rcp.core"
+            application="org.eclipse.e4.ui.workbench.swt.E4Application">
+         <property
+               name="lifeCycleURI"
+               value="bundleclass://de.clemakro.client.rcp.core/de.clemakro.client.rcp.core.E4LifeCycle">
+         </property>
+         <property
+               name="applicationCSS"
+               value="platform:/plugin/de.clemakro.client.rcp.core/css/default.css">
+         </property>
+         <property
+               name="appName"
+               value="de.clemakro.client.rcp.core">
+         </property>
+      </product>
+   </extension>
+
+</plugin>

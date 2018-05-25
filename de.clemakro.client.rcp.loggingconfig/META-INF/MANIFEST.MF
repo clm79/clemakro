@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: RCP-Client Logging Configuration
+Bundle-SymbolicName: de.clemakro.client.rcp.loggingconfig
+Bundle-Version: 1.0.0.dev
+Bundle-Activator: de.clemakro.client.rcp.loggingconfig.Activator
+Bundle-Vendor: Clemakro
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Automatic-Module-Name: de.clemakro.client.rcp.loggingconfig
+Import-Package: org.osgi.framework,
+ org.slf4j,
+ org.slf4j.spi
+Bundle-ActivationPolicy: lazy
+Require-Bundle: ch.qos.logback.classic,
+ ch.qos.logback.core,
+ org.eclipse.core.runtime
