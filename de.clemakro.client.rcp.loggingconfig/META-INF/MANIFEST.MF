@@ -7,10 +7,7 @@ Bundle-Activator: de.clemakro.client.rcp.loggingconfig.Activator
 Bundle-Vendor: Clemakro
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Automatic-Module-Name: de.clemakro.client.rcp.loggingconfig
-Import-Package: org.osgi.framework,
- org.slf4j,
- org.slf4j.spi
+Import-Package: org.osgi.framework
 Bundle-ActivationPolicy: lazy
-Require-Bundle: ch.qos.logback.classic,
- ch.qos.logback.core,
- org.eclipse.core.runtime
+Require-Bundle: org.eclipse.core.runtime,
+ org.apache.log4j

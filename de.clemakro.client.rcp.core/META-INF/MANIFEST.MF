@@ -14,8 +14,7 @@ Require-Bundle: javax.inject,
  org.eclipse.e4.core.di,
  org.eclipse.e4.ui.di,
  org.eclipse.e4.core.contexts,
- org.slf4j.api;visibility:=reexport,
- de.clemakro.client.rcp.loggingconfig
+ org.apache.log4j;visibility:=reexport
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Import-Package: javax.inject;version="1.0.0"
 Automatic-Module-Name: de.clemakro.client.rcp.core
