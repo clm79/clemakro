@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: ATC Vector Navigation Data
+Bundle-SymbolicName: de.clemakro.client.rcp.atvector.navdata;singleton:=true
+Bundle-Version: 2018.06.1
+Bundle-Vendor: Clemakro
+Automatic-Module-Name: de.clemakro.client.rcp.atvector.navdata
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8

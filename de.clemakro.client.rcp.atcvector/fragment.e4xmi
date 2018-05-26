@@ -3,8 +3,8 @@
   <fragments xsi:type="fragment:StringModelFragment" xmi:id="_KLxqYGAQEeiA_8GOxmpyBA" featurename="addons" parentElementId="org.eclipse.e4.application"/>
   <fragments xsi:type="fragment:StringModelFragment" xmi:id="_Vnxk4GAWEeiA_8GOxmpyBA" featurename="menuContributions" parentElementId="org.eclipse.e4.application">
     <elements xsi:type="menu:MenuContribution" xmi:id="_ZRKGYGAWEeiA_8GOxmpyBA" elementId="de.clemakro.client.rcp.atcvector.menucontribution.0" positionInParent="before=org.eclipse.ui.help.menu" parentId="org.eclipse.ui.main.menu">
-      <children xsi:type="menu:Menu" xmi:id="_gi4AgGAWEeiA_8GOxmpyBA" elementId="de.clemakro.client.rcp.atcvector.menu.xy" label="ATC">
-        <children xsi:type="menu:DirectMenuItem" xmi:id="_kRzecGAYEeiA_8GOxmpyBA" elementId="de.clemakro.client.rcp.atcvector.directmenuitem.atcxyz" label="ATC XYZ"/>
+      <children xsi:type="menu:Menu" xmi:id="_gi4AgGAWEeiA_8GOxmpyBA" elementId="de.clemakro.client.rcp.atcvector.menu.xy" label="ATC Test">
+        <children xsi:type="menu:DirectMenuItem" xmi:id="_kRzecGAYEeiA_8GOxmpyBA" elementId="de.clemakro.client.rcp.atcvector.directmenuitem.atcxyz" label="ATC Test 1" contributionURI="bundleclass://de.clemakro.client.rcp.atcvector/de.clemakro.client.rcp.atcvector.handler.AtcTest1Handler"/>
       </children>
     </elements>
   </fragments>

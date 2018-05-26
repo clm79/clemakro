@@ -22,6 +22,7 @@
       <plugin id="com.google.guava"/>
       <plugin id="com.ibm.icu"/>
       <plugin id="de.clemakro.client.rcp.atcvector"/>
+      <plugin id="de.clemakro.client.rcp.atvector.navdata"/>
       <plugin id="de.clemakro.client.rcp.core"/>
       <plugin id="de.clemakro.client.rcp.loggingconfig"/>
       <plugin id="javax.annotation"/>
